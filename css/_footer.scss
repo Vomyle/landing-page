@@ -1,0 +1,74 @@
+@import 'color';
+@import 'const';
+.arshakir,
+.social-links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.all_twitter {
+    @include row_layout;
+    padding-top: 145px;
+}
+
+.twitter_2,
+.face {
+    margin-left: 16px;
+}
+
+.social-links {
+    padding-left: 400px;
+}
+
+.arshakir {
+    font-weight: 700;
+    font-Style: normal;
+    font-Size: 26px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: $orange;
+}
+
+.all_page {
+    @include row_layout;
+}
+
+.first_page,
+.second_page,
+.third_page,
+.fourth {
+    @include separate;
+}
+
+.single-text {
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: $white;
+}
+
+.text {
+    padding-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: $white;
+    opacity: 0.5;
+}
+
+.testimonials {
+    @include row_layout;
+    justify-content: center;
+}
+
+.copyright,
+.policy {
+    color: $white;
+    opacity: 0.5;
+}

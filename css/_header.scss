@@ -1,0 +1,71 @@
+        @import 'color';
+        @import 'const';
+        * {
+            background: $blue;
+            // margin: 0px;
+            padding: 0px;
+        }
+        
+        #header {
+            .section_top_bar {
+                @include row_layout;
+                .single_image {
+                    padding-top: 16px;
+                    height: 36px;
+                    width: 36px;
+                }
+                #nav li {
+                    display: inline-block;
+                    list-style: none;
+                }
+                #nav li a {
+                    color: white;
+                    text-decoration: none;
+                    letter-spacing: 2px;
+                    line-height: 37px;
+                    padding: 0 14px;
+                    font-size: 12px;
+                    display: inline-block;
+                }
+                #nav li:hover a {
+                    color: yellow;
+                    background-color: #ccc;
+                }
+            }
+            .button {
+                flex: 1;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                padding-left: 40px;
+            }
+            .btn {
+                text-decoration: none;
+                border-radius: 2px;
+            }
+            .btn_signup {
+                margin-right: 20px;
+                padding: 7px 15px;
+                color: $white;
+                background: $blue;
+                text-decoration: none;
+                border: 1px solid $orange;
+                border-radius: 3px;
+                font-size: 12px;
+                line-height: 20px;
+                margin-bottom: 3px;
+                letter-spacing: 2px;
+            }
+            .btn_signin {
+                padding: 10px 15px;
+                color: $white;
+                background: orange;
+                text-decoration: none;
+                border: 1px solid orange;
+                border-radius: 3px;
+                font-size: 12px;
+                line-height: 20px;
+                margin-left: 40px;
+                letter-spacing: 2px;
+            }
+        }

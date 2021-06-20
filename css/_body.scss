@@ -1,0 +1,310 @@
+@import 'header';
+@import 'color';
+@import 'const';
+.body {
+    .mainheading {
+        color: #99EFD0;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .subtitle {
+        color: #8476AA;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .btn_learnmore {
+        border: 1px solid $orange;
+        padding: 15px 20px;
+        border-radius: 3px;
+        background: $orange;
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+    .item {
+        padding-top: 40px;
+    }
+    .btn_demo {
+        border: 1px solid $orange;
+        padding: 15px 20px;
+        border-radius: 3px;
+        background: $purple;
+        text-decoration: none;
+        color: $orange;
+    }
+    .button_two {
+        padding-top: 40px;
+    }
+    .success_work {
+        padding-top: 60px;
+        @include row_layout;
+    }
+    .image_youtube {
+        display: flex;
+        flex: 1;
+        padding-right: 20px;
+        height: 80px;
+    }
+    .success {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 22px;
+        color: rgba(132, 118, 170, 1);
+    }
+    .text_youtube_2 {
+        margin-top: 6px;
+    }
+    .secondarytitle {
+        color: $sky_blue;
+        height: 50px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .label {
+        font-size: 16px;
+        line-height: 22px;
+        height: 22px;
+        color: $purple;
+        padding-top: 13px;
+    }
+    .ecstatic {
+        color: $sky_blue;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .widget {
+        color: $purple;
+    }
+    .map_1 {
+        height: 399px;
+    }
+    .increase_widget {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 42px;
+        color: $sky_blue;
+        line-height: 50px;
+    }
+    .traffic {
+        color: $orange;
+    }
+    .traffic_2 {
+        padding-top: 32px;
+        color: $purple;
+        line-height: 28px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .learmore {
+        border: 1px solid $orange;
+        border-radius: 3px;
+        padding: 8px 13px;
+        color: white;
+        background: $orange;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .simple_1 {
+        color: #99EFD0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 1px;
+    }
+    .simple_2 {
+        padding-top: 32px;
+        color: #3B1D60;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .all_simple_2 {
+        padding-top: 48px;
+    }
+    .reasons_1 {
+        text-align: center;
+        color: $sky_blue;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .reasons_2 {
+        line-height: 20px;
+        font-size: 15px;
+        color: $purple;
+        text-align: center;
+        padding-top: 16px;
+    }
+    .money,
+    .save {
+        color: $orange;
+    }
+    .next {
+        padding-top: 169px;
+        color: $sky_blue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+    .getstarted_1 {
+        text-align: center;
+        padding-top: 46px;
+    }
+    .getstarted {
+        background: $orange;
+        text-decoration: none;
+        border: 1px solid $orange;
+        border-radius: 3px;
+        padding: 15px 20px;
+        color: $white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .next_1 {
+        margin-top: 46px;
+    }
+    .new_project {
+        color: $orange;
+        padding: 0 6px;
+    }
+    .invest {
+        height: 100px;
+        font-Weight: 700;
+        font-Style: normal;
+        font-Size: 42px;
+        line-height: 50px;
+        color: $sky_blue;
+        text-align: center;
+    }
+    .business {
+        color: $orange;
+    }
+    .we {
+        color: $purple;
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    .btn_learn_1 {
+        padding: 15px 20px;
+        background: $orange;
+        border: 1px solid $orange;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .btn_learn {
+        padding-top: 46px;
+    }
+    .feature_three,
+    .feature_two {
+        @include separate;
+    }
+    .feature_one {
+        @include row_layout;
+        padding-top: 48px;
+    }
+    .all_feature {
+        padding-top: 111px;
+    }
+    .help {
+        color: $sky_blue;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 32px;
+        padding-bottom: 32px;
+    }
+    .two,
+    .two_2 {
+        color: $purple;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .one {
+        color: $sky_blue;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 18px;
+        padding-bottom: 8px;
+    }
+    .two_2 {
+        padding-bottom: 50px;
+    }
+    .one_1 {
+        padding-bottom: 16px;
+    }
+    .feature_three {
+        padding-right: 64px;
+    }
+    .section_reasons_getdown {
+        border: 1px solid #3C3E7D30;
+        border-radius: 5px;
+        margin-top: 196px;
+        background: $purple;
+        text-align: center;
+    }
+    .there_are {
+        padding-top: 50px;
+        font-style: normal;
+        font-size: 36px;
+        color: $orange;
+        line-height: 43px;
+        text-align: center;
+    }
+    .there_are_many {
+        padding: 20px 0 23px 0;
+        color: #95A1BB;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .your_email {
+        background: rgba(60, 62, 125, 0.19);
+        position: relative;
+        border-radius: 5px;
+        color: #F6F6F6;
+        width: 250px;
+        height: 45px;
+        border: none;
+    }
+    .send_1 {
+        // width: 128px;
+        // height: 50px;
+        background: $orange;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .send {
+        background: $orange;
+        text-decoration: none;
+    }
+    .your_all {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .no_spam {
+        padding-top: 16px;
+        color: $purple;
+        padding-left: 50px;
+        padding-bottom: 52px;
+    }
+}
